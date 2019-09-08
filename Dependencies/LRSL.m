@@ -1,4 +1,4 @@
-function [L, S, iter] = LRSL_2( F, M, lambda, alpha)
+function [L, S, iter] = LRSL( F, M, lambda, alpha)
 %% intialize
 tol1 = 1e-5; %threshold for the error in constraint
 tol2 = 1e-5; %threshold for the change in the solutions
